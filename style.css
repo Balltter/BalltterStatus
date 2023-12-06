@@ -1,0 +1,23 @@
+body {
+
+    background-color: aquamarine;
+    color: white;
+}
+.DownORError {
+    background-color: darkred;
+    color: white;
+}
+.WarnORLow {
+    background-color: orange;
+}
+.ok {
+    background-color: greenyellow;
+}
+.maintenance {
+    background-color: orangered;
+}
+h2 {
+
+    background-color: cornflowerblue;
+    color: white;
+}
