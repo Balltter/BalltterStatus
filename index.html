@@ -12,8 +12,10 @@
         color: white;
     }
     .DownORError {
-        background-color: darkred;
+        background-color: rgb(211, 30, 30);
         color: white;
+        border-radius: 5px;
+        border: 3px solid red;
     }
     .WarnORLow {
         background-color: orange;
@@ -24,11 +26,30 @@
     .maintenance {
         background-color: orangered;
     }
+    h1 {
+
+    background-color: rgb(98, 255, 77);
+    color: white;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    }
     h2 {
 
-        background-color: cornflowerblue;
+        background-color: rgb(152, 188, 255);
         color: white;
+        border-radius: 8px;
+        border: 3px solid;
+        border-color: rgb(255, 255, 255);
     }
+    code {
+
+    background-color: rgb(67, 67, 67);
+    border-radius: 15%;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    color: white;
+}
     </style>
 </head>
 <body>
@@ -39,6 +60,9 @@
 <audio src="sound/ster.mp3" autoplay loop>
     あなたのブラウザはHTML5のAudio機能をサポートしていないようです...
 </audio>
-
+<h2>現在のステータス</h2>
+<h4 class="DownORError">ダウン中<br>原因:開発中</h4>
+<h2>メンテナンス予定日</h4>
+<code>2023 0/00 00:00 無内容<br>2024 0/00 00:00 無内容<br>2024 0/00 00:00 無内容<br>2024 0/00 00:00 無内容</code>
 </body>
 </html>
